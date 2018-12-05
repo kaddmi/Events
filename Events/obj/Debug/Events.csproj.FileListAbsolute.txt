@@ -5,3 +5,10 @@ C:\Users\Anastasija\source\repos\Events\Events\obj\Debug\Events.csprojAssemblyRe
 C:\Users\Anastasija\source\repos\Events\Events\obj\Debug\Events.csproj.CoreCompileInputs.cache
 C:\Users\Anastasija\source\repos\Events\Events\obj\Debug\Events.exe
 C:\Users\Anastasija\source\repos\Events\Events\obj\Debug\Events.pdb
+D:\gk\Events\Events\bin\Debug\Events.exe.config
+D:\gk\Events\Events\bin\Debug\Events.exe
+D:\gk\Events\Events\bin\Debug\Events.pdb
+D:\gk\Events\Events\obj\Debug\Events.csprojAssemblyReference.cache
+D:\gk\Events\Events\obj\Debug\Events.csproj.CoreCompileInputs.cache
+D:\gk\Events\Events\obj\Debug\Events.exe
+D:\gk\Events\Events\obj\Debug\Events.pdb

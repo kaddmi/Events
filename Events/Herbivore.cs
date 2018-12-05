@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace Events
 {
-    class Harbivore
+    class Herbivore
     {
-        public delegate void HarbivoreHandler(string mes);
-        public event HarbivoreHandler EatPlant;
+        public delegate void HerbivoreHandler(string mes);
+        public event HerbivoreHandler EatPlant;
 
         public string Kind { set; get; }
         public bool Eat {get; private set;}
 
-        public Harbivore(string kind)
+        public Herbivore(string kind)
         {
             Eat = false;
             Kind = kind;

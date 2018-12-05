@@ -11,7 +11,7 @@ namespace Events
         static void Main(string[] args)
         {
             Plant carrot = new Plant("Carrot");
-            Harbivore rabbit = new Harbivore("Rabbit");
+            Herbivore rabbit = new Herbivore("Rabbit");
             Carnivore snake = new Carnivore("Snake");
             carrot.Grow += ShowMessage;
             carrot.Grows();
@@ -23,7 +23,7 @@ namespace Events
             }
             if (rabbit.Eat)
             {
-                snake.EatHarbivore += ShowMessage;
+                snake.EatHerbivore += ShowMessage;
                 snake.Eating(rabbit.Kind);
             }
             Console.ReadLine();

@@ -9,7 +9,7 @@ namespace Events
     class Carnivore
     {
         public delegate void CarnivoreHandler(string mes);
-        public event CarnivoreHandler EatHarbivore;
+        public event CarnivoreHandler EatHerbivore;
 
         public string Kind { set; get; }
         public bool Eat { get; private set; }
@@ -20,11 +20,11 @@ namespace Events
             Kind = kind;
         }
 
-        public void Eating(string Harbivore)
+        public void Eating(string Herbivore)
         {
             Eat = true;
-            if (EatHarbivore != null)
-                EatHarbivore($"{Harbivore} has been eaten by {Kind}");
+            if (EatHerbivore != null)
+                EatHerbivore($"{Herbivore} has been eaten by {Kind}");
         }
     }
 }
